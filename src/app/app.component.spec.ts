@@ -33,7 +33,7 @@ describe('AppComponent', () => {
   test(`should have as title 'angular-ci-cd'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-ci-cd');
+    expect(app.title).toEqual('angular-ci-cd-break-test');
   });
 
   // test('should render title', () => {
